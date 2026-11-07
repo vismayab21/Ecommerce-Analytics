@@ -4,6 +4,56 @@ A data analytics project for understanding online store performance: sales, cust
 
 ---
 
+## Dashboard Preview
+
+<p align="center">
+  <img src="docs/screenshots/slideshow.gif" alt="E-Commerce Analytics dashboard slideshow" width="900">
+</p>
+
+<p align="center"><em>Auto-playing slideshow of the dashboard. Click any slide below to view it full size.</em></p>
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <a href="docs/screenshots/01_executive_overview.png">
+        <img src="docs/screenshots/01_executive_overview.png" alt="Executive Overview">
+      </a>
+      <br><b>1. Executive Overview</b>
+      <br><sub>Total revenue, orders, customers, AOV and monthly revenue with a 3-month moving average</sub>
+    </td>
+    <td align="center" width="33%">
+      <a href="docs/screenshots/02_customer_product_geo.png">
+        <img src="docs/screenshots/02_customer_product_geo.png" alt="Customer segments, top countries and top products">
+      </a>
+      <br><b>2. Segments, Countries and Products</b>
+      <br><sub>Customer segment donut, spending distribution, top 10 countries and top 10 products</sub>
+    </td>
+    <td align="center" width="33%">
+      <a href="docs/screenshots/03_revenue_analytics.png">
+        <img src="docs/screenshots/03_revenue_analytics.png" alt="Revenue Analytics">
+      </a>
+      <br><b>3. Revenue Analytics</b>
+      <br><sub>Sales trends, order patterns and the monthly revenue trend</sub>
+    </td>
+  </tr>
+</table>
+
+### Dashboard pages
+
+| Page | What it shows |
+|------|---------------|
+| Executive Overview | Headline KPIs and revenue performance over time |
+| Revenue Analytics | Sales trends, order patterns, monthly revenue |
+| Customer Intelligence | Segmentation and spending behavior |
+| Product Intelligence | Top products and product performance |
+| Geographic Analytics | Revenue by country |
+| Customer Value Analysis | Customer lifetime value and segment value |
+| Data Explorer | Browse and filter the underlying transactions |
+
+> **Adding or updating the screenshots:** save your images in `docs/screenshots/` using the file names above, then regenerate the slideshow GIF with `python scripts/make_slideshow.py`.
+
+---
+
 ## Table of Contents
 
 1. [Overview](#overview)
